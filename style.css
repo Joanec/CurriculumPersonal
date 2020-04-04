@@ -23,9 +23,10 @@ body, article, section {
 th.espacio {
     padding-top: 20px;
 }
-/*****PRIMERA SECCION*****/
+/*****PRINCIPAL + IMAGEN*****/
+
 section.s1{
-    height: 800px;
+    height: 700px;
     flex-direction: row;
     width: 100%;
     text-align: left;
@@ -33,12 +34,15 @@ section.s1{
 }
 
 h1 {
-    font-size: 8.5em;
+    font-size: 100px;
     font-family: 'Roboto', sans-serif;
     margin-block-start: 20%;
     margin-block-end: 0em;
     margin-left: 10%;
     color: black;
+}
+.imagen{*********
+    height: 50px;
 }
 
 /****SEGUNDA SECCION*****/
