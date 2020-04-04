@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+
+html {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+section {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+body, article, section {
+    margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+th.espacio {
+    padding-top: 20px;
+}
+/*****PRIMERA SECCION*****/
+section.s1{
+    height: 800px;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    background-color: #DDDDDD;
+}
+
+h1 {
+    font-size: 8.5em;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 20%;
+    margin-block-end: 0em;
+    margin-left: 10%;
+    color: black;
+}
+
+/****SEGUNDA SECCION*****/
+section.s2  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.s2 article {
+    flex: 1;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 5%;
+}
+
+section.s2 p {
+    flex: 1;
+}
+
+article.s21 {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+article.s22 {
+    background-color: #695DAF;
+    color: white;
+}
+
+article.s23 {
+    background-color: #FFFFFF;
+}
+
+/****TERCERA SECCION*****/
+section.s3 {
+    background-color: #F5EDE2 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+section.cuarta h2 {
+    font-size: 5em;
+    color: #78D1C5;
+}
+
+
+/****CUARTA SECCION*****/
+section.s4 {
+    background-color: ##BBFBC0;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+section.quinta h2 {
+    font-size: 5em;
+    color: #7A59E5;
+}
