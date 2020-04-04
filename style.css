@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
 
+
+
 html {
     font-family: 'Karla', sans-serif;
     margin: 0;
@@ -9,6 +11,13 @@ html {
 	font-size: 100%;
 }
 
+.container {
+    width: 940px;
+    background: lightslategray;
+    margin: auto;
+    font-family: sans-serif;
+  }
+  
 section {
     display: inline-flex;
     flex-direction: column;
@@ -20,88 +29,126 @@ body, article, section {
     border: 0;
 }
 
-th.espacio {
-    padding-top: 20px;
-}
-/*****PRINCIPAL + IMAGEN*****/
-
-section.s1{
-    height: 700px;
+/***********PRINCIPAL + IMAGEN***********/
+section.section1{
+    height: 400px;
     flex-direction: row;
     width: 100%;
     text-align: left;
-    background-color: #DDDDDD;
+    background-color: rgb(201, 194, 133);
 }
 
-h1 {
-    font-size: 100px;
+h1.titulo1 {
+    font-size: 75px;
     font-family: 'Roboto', sans-serif;
-    margin-block-start: 20%;
+    margin-block-start: 10%;
     margin-block-end: 0em;
-    margin-left: 10%;
+    margin-left: 30%;
     color: black;
 }
-.imagen{*********
-    height: 50px;
+
+h1.titulo2 {
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 10%;
+    margin-block-end: 0em;
+    margin-left: 50%;
+    color: black;
 }
 
-/****SEGUNDA SECCION*****/
-section.s2  {
+h1.titulo3 {
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 10%;
+    margin-block-end: 0em;
+    margin-left: 70%;
+    color: black;
+}
+
+/**********SEGUNDA SECTION***********/
+section.section2  {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: -5px;
 }
 
-section.s2 article {
+section.section2 article {
     flex: 1;
     font-size: 1.2em;
     text-align: left;
-    padding: 5%;
+    padding: 4%;
 }
 
-section.s2 p {
+section.section2 p {
     flex: 1;
 }
 
-article.s21 {
-    background-color: #1E1E1E;
+article.section2-1 {
+    background-color: rgb(46, 40, 54);
     color: white;
 }
 
-article.s22 {
-    background-color: #695DAF;
-    color: white;
+article.section2-2 {
+    background-color: rgb(255, 255, 255);
 }
 
-article.s23 {
-    background-color: #FFFFFF;
-}
-
-/****TERCERA SECCION*****/
-section.s3 {
-    background-color: #F5EDE2 ;
+/********** SECTION**********/
+section.section3 {
+    background-color: rgb(201, 194, 133);
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
 
-section.cuarta h2 {
-    font-size: 5em;
-    color: #78D1C5;
+/********** SECTION***********/
+section.section4 h2 {
+    font-size: 40px;
+    color: rgb(170, 127, 48);
+    text-align: center;
 }
 
-
-/****CUARTA SECCION*****/
-section.s4 {
-    background-color: #BBFBC0;
+section.section4-1 {
+    background-color: rgb(201, 194, 133);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+section.section4-2 {
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+section.section4-3 {
+    background-color:  rgb(46, 40, 54);
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
 
-section.quinta h2 {
-    font-size: 5em;
-    color: #7A59E5;
+/**********ÚLTIMA SECTION***********/
+section.section3  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.section3 article {
+    flex: 1;
+    font-size: 15px;
+    text-align: center;
+    padding: 1%;
+}
+
+section.section3 p {
+    flex: 1;
+}
+
+article.section3-1 {
+    background-color: rgb(201, 194, 133);
 }
