@@ -9,6 +9,17 @@ html {
 	font-size: 100%;
 }
 
+body, article, section {
+    margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+section {
+    display: inline-flex;
+    flex-direction: column;
+}
+
 .container {
     width: 940px;
     background: lightslategray;
@@ -16,16 +27,6 @@ html {
     font-family: sans-serif;
   }
   
-section {
-    display: inline-flex;
-    flex-direction: column;
-}
-
-body, article, section {
-    margin: 0;
-	padding: 0;
-    border: 0;
-}
 
 /***********PRINCIPAL + IMAGEN***********/
 section.section1{
@@ -152,4 +153,9 @@ article.section6-1 {
 
 a {
     color: rgb(170, 127, 48);
+}
+
+video {
+    width: 400px; 
+    height: 400px;
 }
