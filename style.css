@@ -64,7 +64,7 @@ h1.titulo3 {
     color: black;
 }
 
-/**********SECTIONS***********/
+/**********SECTIONS CENTRALES***********/
 section.section2  {
     display: flex;
     flex-direction: row;
@@ -92,14 +92,14 @@ article.section2-2 {
     background-color: rgb(255, 255, 255);
 }
 
-/**********TERCERA SECTION***********/
-section.section4 h2 {
+/**********TITULOS SECTION***********/
+section.section3 h2 {
     font-size: 40px;
     color: rgb(170, 127, 48);
     text-align: center;
 }
 
-section.section4-1 {
+section.section3-1 {
     background-color: rgb(201, 194, 133);
     display: inline-flex;
     flex-direction: row;
@@ -107,13 +107,12 @@ section.section4-1 {
     width: 100%;
 }
 
-
-
-
+/**********CV_JOAN***********/
 a {
     color: rgb(170, 127, 48);
 }
 
+/**********VIDEO***********/
 video {
     width: 400px; 
     height: 400px;
